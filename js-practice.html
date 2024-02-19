@@ -41,8 +41,38 @@ console.log(name)
 // Strings on my own
 
 let greeting = 'My name is';
-console.log(greeting + " " +name)
+console.log(greeting + " " +name);
 
+console.log("Using functions:");
+// functions to make square numbers
+
+function makeSquare(theNumb) {
+  let squared = Math.pow(theNumb, 2);
+  return squared;
+}
+let try01 = makeSquare(3);
+console.log(try01);
+
+let try02 = makeSquare(4);
+console.log(try02);
+
+let try03 = makeSquare(5);
+console.log(try03);
+
+// Functions on my own
+
+function nameMaker(firstName, middleName, lastName) {
+  let name = firstName + " " + middleName + " " + lastName;
+  return name;
+}
+let name01 = nameMaker("George", "W", "Bush");
+console.log(name01);
+
+let name02 = nameMaker("Robert", "'Beto'", "O'Rourke");
+console.log(name02);
+
+let name03 = nameMaker("Nicki", "Minaj", "Suarez");
+console.log(name03);
   </script>
 </body>
 </html>
